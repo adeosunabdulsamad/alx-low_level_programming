@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -c $CFILE 2>  $(echo $CFILE | cut -d"." -f1).o
