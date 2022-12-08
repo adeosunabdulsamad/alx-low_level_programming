@@ -1,3 +1,2 @@
 #!/bin/bash
-
 gcc $CFILE -S > $(echo $CFILE|cut -d"." -f1).s

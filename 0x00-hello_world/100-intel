@@ -1,3 +1,2 @@
 #!/bin/bash
-
 gcc -masm=intel $CFILE -S 2> $(echo $CFILE|cut -d"." -f1).s
