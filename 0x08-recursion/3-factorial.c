@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * _factorial - the function should return -1 to indicate an error
- * @s: string to print
+ * factorial - returns the factorial of a number
+ * @n: number to return the factorial from
+ *
+ * Return: factorial of n
  */
 
 int factorial(int n)
