@@ -1,0 +1,173 @@
+!<arch>
+0-isupper.c/    0           0     0     644     114       `
+#include "main.h"
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+
+int _isupper(int c)
+{
+	return(c);
+}
+
+0-memset.c/     0           0     0     644     71        `
+#include "main.h"
+
+char *_memset(char *s, char b, unsigned int n)
+{
+
+}
+
+0-strcat.c/     0           0     0     644     61        `
+#include "main.h"
+
+char *_strcat(char *dest, char *src)
+{
+
+}
+
+100-atoi.c/     0           0     0     644     43        `
+#include "main.h"
+
+int _atoi(char *s)
+{
+
+}
+
+1-isdigit.c/    0           0     0     644     44        `
+#include "main.h"
+
+int _isdigit(int c)
+{
+
+}
+1-memcpy.c/     0           0     0     644     77        `
+#include "main.h"
+
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+
+}
+
+1-strncat.c/    0           0     0     644     69        `
+#include "main.h"
+
+char *_strncat(char *dest, char *src, int n)
+{
+
+}
+
+2-strchr.c/     0           0     0     644     55        `
+#include "main.h"
+
+char *_strchr(char *s, char c)
+{
+
+}
+
+2-strlen.c/     0           0     0     644     45        `
+#include "main.h"
+
+int _strlen(char *s)
+{
+
+}
+
+2-strncpy.c/    0           0     0     644     69        `
+#include "main.h"
+
+char *_strncpy(char *dest, char *src, int n)
+{
+
+}
+
+3-islower.c/    0           0     0     644     44        `
+#include "main.h"
+
+int _islower(int c)
+{
+
+}
+3-puts.c/       0           0     0     644     44        `
+#include "main.h"
+
+void _puts(char *s)
+{
+
+}
+3-strcmp.c/     0           0     0     644     56        `
+#include "main.h"
+
+int _strcmp(char *s1, char *s2)
+{
+
+}
+3-strspn.c/     0           0     0     644     68        `
+#include "main.h"
+
+unsigned int _strspn(char *s, char *accept)
+{
+
+}
+4-isalpha.c/    0           0     0     644     44        `
+#include "main.h"
+
+int _isalpha(int c)
+{
+
+}
+4-strpbrk.c/    0           0     0     644     62        `
+#include "main.h"
+
+char *_strpbrk(char *s, char *accept)
+{
+
+}
+5-strstr.c/     0           0     0     644     68        `
+#include "main.h"
+
+char *_strstr(char *haystack, char *needle)
+{
+
+}
+6-abs.c/        0           0     0     644     40        `
+#include "main.h"
+
+int _abs(int n)
+{
+
+}
+9-strcpy.c/     0           0     0     644     61        `
+#include "main.h"
+
+char *_strcpy(char *dest, char *src)
+{
+
+}
+
+main.c/         0           0     0     644     148       `
+#include "main.h"
+
+int main(void)
+{
+    _puts("\"At the end of the day, my goal was to be the best hacker\"\n\t- Kevin Mitnick");
+    return (0);
+}
+_putchar.c/     0           0     0     644     247       `
+#include <unistd.h>
+
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
+
