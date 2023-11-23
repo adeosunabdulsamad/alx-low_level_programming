@@ -1,0 +1,3 @@
+This is the Readme file for Bt Manipulaton\n
+
+tHE PROGRAM WILL BE ABLE TO CONVERT NUMBERS FROM ONE BASE TO ANOTHER
